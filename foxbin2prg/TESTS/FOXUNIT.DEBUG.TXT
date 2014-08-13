@@ -1,0 +1,1136 @@
+
+Debug Start
+
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_dbc
+tcTestMethod:  Evaluate_results
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:42 AM
+Set oTestResult properties
+Run Test
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = * Support method, not a valid test.
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_dbc
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_FB2P_DBC_DC2_YRegenerarEl_DBC_ConTodosSusObjetos
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:42 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_dbc.DC2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_dbc.DC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_dbc.DBC]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_dbc.DCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_dbc.DCT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_dbc.DC2]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Bytes DC3: 33747
+Bytes DC2: 33747
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_dbf
+tcTestMethod:  Evaluate_results
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run Test
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = * Support method, not a valid test.
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_dbf
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_FB2P_FREE_DB2_YValidarQueGenereUn_DBF_ConTodosLosCamposYLasMismasDefinicionesYOrden
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DBF]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.FPT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.CDX]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Cantidad de campos: 18
+
+Nombre       Tipo Long  Dec
+----------   ---- ----  ---
+CARACTER      C     30    0
+FECHA         D      8    0
+FECHORA       T      8    0
+LOGICO        L      1    0
+DOBLE         B      8    5
+FLOTANTE      F     10    6
+NUMERICO      N     12    3
+BLOB          W      4    0
+MONEDA        Y      8    4
+GENERAL       G      4    0
+ENTERO        I      4    0
+NOTAS         M      4    0
+VAR_BINARY    Q     35    0
+VAR_CHAR      V     36    0
+NOTASBIN      M      4    0
+CARC_BIN      C     30    0
+VARCHARBIN    V     37    0
+ID_AUTOINC    I      4    0
+----------   ---- ----  ---
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_dbf
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_FB2P_FREE_DB2_YValidarQueGenereUn_DBF_ConLosMismosIndices
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DBF]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.FPT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.CDX]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Cantidad de índices para [C:\DESA\FOXBIN2PRG\TESTS\DATOS_TEST\FB2P_FREE.DBF]: 3
+
+Tag          Tipo         Clave                          Filtro                         Order        Collate
+----------   ----------   ----------------------------   ----------------------------   ----------   ----------
+LOGICO       BINARY       LOGICO                                                        ASCENDING    MACHINE
+ENTERO       REGULAR      ENTERO                                                        DESCENDING   MACHINE
+CARACTER     CANDIDATE    CARACTER                       .NOT.EMPTY(caracter)           ASCENDING    GENERAL
+----------   ----------   ----------------------------   ----------------------------   ----------   ----------
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_dbf
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaLaTabla_FB2P_FREE_DBF_YValidarQueGenereUn_DB2yDBF_ConTodosLosCamposYLasMismasDefinicionesYOrden
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DB2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DB2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DBF]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.FPT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.CDX]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Cantidad de campos: 18
+
+Nombre       Tipo Long  Dec
+----------   ---- ----  ---
+CARACTER      C     30    0
+FECHA         D      8    0
+FECHORA       T      8    0
+LOGICO        L      1    0
+DOBLE         B      8    5
+FLOTANTE      F     10    6
+NUMERICO      N     12    3
+BLOB          W      4    0
+MONEDA        Y      8    4
+GENERAL       G      4    0
+ENTERO        I      4    0
+NOTAS         M      4    0
+VAR_BINARY    Q     35    0
+VAR_CHAR      V     36    0
+NOTASBIN      M      4    0
+CARC_BIN      C     30    0
+VARCHARBIN    V     37    0
+ID_AUTOINC    I      4    0
+----------   ---- ----  ---
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_dbf
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaLaTabla_FB2P_FREE_DBF_YValidarQueGenereUn_DB2yDBF_ConLosMismosIndices
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DB2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DB2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.DBF]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.FPT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_free.CDX]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Cantidad de índices para [C:\DESA\FOXBIN2PRG\TESTS\DATOS_TEST\FB2P_FREE.DBF]: 3
+
+Tag          Tipo         Clave                          Filtro                         Order        Collate
+----------   ----------   ----------------------------   ----------------------------   ----------   ----------
+LOGICO       BINARY       LOGICO                                                        ASCENDING    MACHINE
+ENTERO       REGULAR      ENTERO                                                        DESCENDING   MACHINE
+CARACTER     CANDIDATE    CARACTER                       .NOT.EMPTY(caracter)           ASCENDING    GENERAL
+----------   ----------   ----------------------------   ----------------------------   ----------   ----------
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_mnx
+tcTestMethod:  Evaluate_results
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run Test
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = * Support method, not a valid test.
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_mnx
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_MENU1_MN2_YRegenerarEl_MNX_ConTodosSusObjetos
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu1.MN2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu1.MN2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu1.MNX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu1.MNT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu1.MN2]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Bytes MN3: 3560
+Bytes MN2: 3560
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_mnx
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_MENU2_MN2_YRegenerarEl_MNX_ConTodosSusObjetos
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:43 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu2.MN2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu2.MN2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu2.MNX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu2.MNT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu2.MN2]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Bytes MN3: 4370
+Bytes MN2: 4370
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_mnx
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_MENU3_MN2_YRegenerarEl_MNX_ConTodosSusObjetos
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:44 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu3.MN2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu3.MN2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu3.MNX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu3.MNT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu3.MN2]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Bytes MN3: 485
+Bytes MN2: 485
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_mnx
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_MENU_SHORTCUT_MN2_YRegenerarEl_MNX_ConTodosSusObjetos
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:44 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut.MN2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut.MN2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut.MNX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut.MNT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut.MN2]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Bytes MN3: 3295
+Bytes MN2: 3295
+Generate Results
+Parameters:
+tcTest:        ft__foxbin2prg__c_conversor_prg_a_mnx
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElArchivo_MENU_SHORTCUT2_MN2_YRegenerarEl_MNX_ConTodosSusObjetos
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:44 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut2.MN2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut2.MN2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut2.MNX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut2.MNT]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\menu_shortcut2.MN2]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Bytes MN3: 3282
+Bytes MN2: 3282
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Evaluate_results
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:44 AM
+Set oTestResult properties
+Run Test
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = * Support method, not a valid test.
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElReporte_FB2P_FRX_YValidarLosCamposDelRegistro
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:44 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_foxuser.FR2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_foxuser.FRX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_foxuser.FRT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#1 UniqueID="_40Y16F15N" ObjType=1 ObjCode=53 Expr=[DRIVER=winspool
+DEV...] vpos=1 hpos=5000 height=1000 width=-1
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#2 UniqueID="_40Y16F15O" ObjType=9 ObjCode=0 Expr=[] vpos=0 hpos=0 height=6459 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#3 UniqueID="_40Y16F15P" ObjType=9 ObjCode=1 Expr=[] vpos=0 hpos=0 height=5209 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#4 UniqueID="_40Y16F15Q" ObjType=9 ObjCode=3 Expr=[DTOS(UPDATED)] vpos=0 hpos=0 height=2709 width=17090
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#5 UniqueID="_40Y16F15R" ObjType=9 ObjCode=4 Expr=[] vpos=0 hpos=0 height=4479 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#6 UniqueID="_40Y16F15S" ObjType=9 ObjCode=5 Expr=[] vpos=0 hpos=0 height=4479 width=17090
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#7 UniqueID="_40Y16F15T" ObjType=9 ObjCode=7 Expr=[] vpos=0 hpos=0 height=3021 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#8 UniqueID="_40Y16F15U" ObjType=9 ObjCode=8 Expr=[] vpos=0 hpos=0 height=4479 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#9 UniqueID="_40Y16F15V" ObjType=18 ObjCode=0 Expr=[0] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#10 UniqueID="_40Y16F15W" ObjType=23 ObjCode=0 Expr=[] vpos=14 hpos=5 height=11 width=21
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#11 UniqueID="_40Y16F15X" ObjType=23 ObjCode=0 Expr=[] vpos=14 hpos=5 height=11 width=29
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#12 UniqueID="_40Y16F15Y" ObjType=23 ObjCode=0 Expr=[] vpos=15 hpos=6 height=12 width=32
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#13 UniqueID="_40Y16F15Z" ObjType=23 ObjCode=0 Expr=[] vpos=16 hpos=6 height=13 width=35
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#14 UniqueID="_40Y16F160" ObjType=23 ObjCode=0 Expr=[] vpos=16 hpos=6 height=13 width=34
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#15 UniqueID="_40Y16F161" ObjType=23 ObjCode=0 Expr=[] vpos=23 hpos=9 height=18 width=50
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#16 UniqueID="_40Y16F162" ObjType=6 ObjCode=0 Expr=[] vpos=1145.833 hpos=208.333 height=416.667 width=71666.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#17 UniqueID="_40Y16F163" ObjType=5 ObjCode=0 Expr=["FOXUSER"] vpos=1979.167 hpos=729.167 height=2395.833 width=9583.333
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#18 UniqueID="_40Y16F164" ObjType=8 ObjCode=0 Expr=[DATE()] vpos=4479.167 hpos=625 height=1666.667 width=6979.167
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#19 UniqueID="_40Y16F165" ObjType=6 ObjCode=0 Expr=[] vpos=9166.667 hpos=208.333 height=416.667 width=71666.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#20 UniqueID="_40Y16F166" ObjType=5 ObjCode=0 Expr=["Updated"] vpos=9791.667 hpos=729.167 height=1562.500 width=4895.833
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#21 UniqueID="_40Y16F167" ObjType=5 ObjCode=0 Expr=["Type"] vpos=9791.667 hpos=16979.167 height=1562.500 width=2708.333
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#22 UniqueID="_40Y16F168" ObjType=5 ObjCode=0 Expr=["Id"] vpos=9791.667 hpos=30416.667 height=1562.500 width=1041.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#23 UniqueID="_40Y16F169" ObjType=5 ObjCode=0 Expr=["Name"] vpos=9791.667 hpos=43750 height=1562.500 width=3437.500
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#24 UniqueID="_40Y16F16A" ObjType=5 ObjCode=0 Expr=["Readonly"] vpos=11458.333 hpos=16979.167 height=1562.500 width=5416.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#25 UniqueID="_40Y16F16B" ObjType=5 ObjCode=0 Expr=["Ckval"] vpos=11458.333 hpos=29479.167 height=1562.500 width=3229.167
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#26 UniqueID="_40Y16F16C" ObjType=6 ObjCode=0 Expr=[] vpos=13333.333 hpos=208.333 height=416.667 width=71666.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#27 UniqueID="_40Y16F16D" ObjType=7 ObjCode=4 Expr=[] vpos=15833.333 hpos=208.333 height=2708.333 width=71666.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#28 UniqueID="_40Y16F16E" ObjType=8 ObjCode=0 Expr=[DTOC(UPDATED)] vpos=16250 hpos=729.167 height=1875 width=6250
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#29 UniqueID="_40Y16F16F" ObjType=7 ObjCode=4 Expr=[] vpos=20625 hpos=208.333 height=4479.167 width=71666.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#30 UniqueID="_40Y16F16G" ObjType=6 ObjCode=0 Expr=[] vpos=20729.167 hpos=15833.333 height=4270.833 width=104.167
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#31 UniqueID="_40Y16F16H" ObjType=6 ObjCode=0 Expr=[] vpos=20729.167 hpos=29166.667 height=4270.833 width=104.167
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#32 UniqueID="_40Y16F16I" ObjType=6 ObjCode=0 Expr=[] vpos=20729.167 hpos=42604.167 height=4270.833 width=104.167
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#33 UniqueID="_40Y16F16J" ObjType=8 ObjCode=0 Expr=[TYPE] vpos=21145.833 hpos=16979.167 height=1666.667 width=11041.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#34 UniqueID="_40Y16F16K" ObjType=8 ObjCode=0 Expr=[ID] vpos=21145.833 hpos=30416.667 height=1666.667 width=11041.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#35 UniqueID="_40Y16F16L" ObjType=8 ObjCode=0 Expr=[PROPER(NAME)] vpos=21145.833 hpos=43750 height=1666.667 width=26354.167
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#36 UniqueID="_40Y16F16M" ObjType=8 ObjCode=0 Expr=[READONLY] vpos=22916.667 hpos=16770.833 height=1666.667 width=2083.333
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#37 UniqueID="_40Y16F16N" ObjType=8 ObjCode=0 Expr=[CKVAL] vpos=22916.667 hpos=24583.333 height=1666.667 width=7916.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#38 UniqueID="_40Y16F16O" ObjType=8 ObjCode=0 Expr=[[Count for ]+DTOC(UP...] vpos=27708.333 hpos=729.167 height=1666.667 width=16250
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#39 UniqueID="_40Y16F16P" ObjType=8 ObjCode=0 Expr=[TYPE] vpos=27708.333 hpos=16979.167 height=1666.667 width=11041.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#40 UniqueID="_40Y16F16Q" ObjType=8 ObjCode=0 Expr=["Page " + TRANSFORM(...] vpos=34375 hpos=729.167 height=1666.667 width=14375
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#41 UniqueID="_40Y16F16R" ObjType=8 ObjCode=0 Expr=[[Total Count:]] vpos=39270.833 hpos=729.167 height=1666.667 width=6562.500
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#42 UniqueID="_40Y16F16S" ObjType=8 ObjCode=0 Expr=[TYPE] vpos=39270.833 hpos=16979.167 height=1666.667 width=11041.667
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#43 UniqueID="_40Y16F16T" ObjType=25 ObjCode=0 Expr=[Comment = 'Y este es...] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_frx_yvalidarloscamposdelregistro
+Recno#44 UniqueID="_40Y16F16U" ObjType=26 ObjCode=0 Expr=[Comment = 'Y este es...] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElReporte_FB2P_LBX_YValidarLosCamposDelRegistro
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:45 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_foxuser.LB2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_foxuser.LBX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_foxuser.LBT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#1 UniqueID="_3Y11C8XLX" ObjType=1 ObjCode=53 Expr=[] vpos=2 hpos=2750 height=1000 width=40000
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#2 UniqueID="_3Y11C8XLY" ObjType=9 ObjCode=1 Expr=[] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#3 UniqueID="_3Y11C8XLZ" ObjType=9 ObjCode=2 Expr=[] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#4 UniqueID="_3Y11C8XM0" ObjType=9 ObjCode=4 Expr=[] vpos=0 hpos=0 height=10000 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#5 UniqueID="_3Y11C8XM1" ObjType=9 ObjCode=6 Expr=[] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#6 UniqueID="_3Y11C8XM2" ObjType=9 ObjCode=7 Expr=[] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#7 UniqueID="_3Y11C8XM3" ObjType=8 ObjCode=0 Expr=[ALLT(Type)+ALLT(Id)+...] vpos=8333.333 hpos=2604.168 height=1666.667 width=34791.665
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#8 UniqueID="_3Y11CBDHX" ObjType=23 ObjCode=0 Expr=[] vpos=16 hpos=8 height=12 width=9
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#9 UniqueID="_3Y11CBDHY" ObjType=23 ObjCode=0 Expr=[] vpos=14 hpos=5 height=11 width=30
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#10 UniqueID="_3Y11CBDHZ" ObjType=25 ObjCode=0 Expr=[Name = "Dataenvironm...] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelreporte_fb2p_lbx_yvalidarloscamposdelregistro
+Recno#11 UniqueID="_3Y11CBDI0" ObjType=26 ObjCode=0 Expr=[Order = "updated"
+A...] vpos=0 hpos=0 height=0 width=0
+
+********************************************************************************
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElForm_FB2P_FRM_1_SCX_YValidarLosCamposDelRegistro
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:45 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_1.SC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_1.SCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_1.SCT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .dataenvironment (dataenvironment): 13 (Tamaño = 228 bytes)
+PROTECTED esperadas para .dataenvironment (dataenvironment): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .dataenvironment (dataenvironment): 0 (Tamaño = 0 bytes)
+METHODS esperadas para .dataenvironment (dataenvironment): 1 (Tamaño = 100 bytes)
+OLE2 esperado para .dataenvironment (dataenvironment):
+Checksum OLE esperado para .dataenvironment (dataenvironment): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para dataenvironment.cursor1 (cursor): 16 (Tamaño = 262 bytes)
+PROTECTED esperadas para dataenvironment.cursor1 (cursor): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para dataenvironment.cursor1 (cursor): 0 (Tamaño = 0 bytes)
+METHODS esperadas para dataenvironment.cursor1 (cursor): 1 (Tamaño = 84 bytes)
+OLE2 esperado para dataenvironment.cursor1 (cursor):
+Checksum OLE esperado para dataenvironment.cursor1 (cursor): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .cl_form1 (cl_form): 118 (Tamaño = 2711 bytes)
+PROTECTED esperadas para .cl_form1 (cl_form): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_form1 (cl_form): 0 (Tamaño = 0 bytes)
+METHODS esperadas para .cl_form1 (cl_form): 0 (Tamaño = 0 bytes)
+OLE2 esperado para .cl_form1 (cl_form):
+Checksum OLE esperado para .cl_form1 (cl_form): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.shape1 (shape): 10 (Tamaño = 150 bytes)
+PROTECTED esperadas para cl_form1.shape1 (shape): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.shape1 (shape): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.shape1 (shape): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.shape1 (shape):
+Checksum OLE esperado para cl_form1.shape1 (shape): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.txtpromotor (textbox): 14 (Tamaño = 253 bytes)
+PROTECTED esperadas para cl_form1.txtpromotor (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.txtpromotor (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.txtpromotor (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.txtpromotor (textbox):
+Checksum OLE esperado para cl_form1.txtpromotor (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.lblpromotor (label): 11 (Tamaño = 174 bytes)
+PROTECTED esperadas para cl_form1.lblpromotor (label): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.lblpromotor (label): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.lblpromotor (label): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.lblpromotor (label):
+Checksum OLE esperado para cl_form1.lblpromotor (label): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.txtidenc (textbox): 14 (Tamaño = 247 bytes)
+PROTECTED esperadas para cl_form1.txtidenc (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.txtidenc (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.txtidenc (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.txtidenc (textbox):
+Checksum OLE esperado para cl_form1.txtidenc (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.lblidenc (label): 11 (Tamaño = 168 bytes)
+PROTECTED esperadas para cl_form1.lblidenc (label): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.lblidenc (label): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.lblidenc (label): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.lblidenc (label):
+Checksum OLE esperado para cl_form1.lblidenc (label): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.txtcalific (textbox): 14 (Tamaño = 249 bytes)
+PROTECTED esperadas para cl_form1.txtcalific (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.txtcalific (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.txtcalific (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.txtcalific (textbox):
+Checksum OLE esperado para cl_form1.txtcalific (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.lblcalific (label): 11 (Tamaño = 173 bytes)
+PROTECTED esperadas para cl_form1.lblcalific (label): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.lblcalific (label): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.lblcalific (label): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.lblcalific (label):
+Checksum OLE esperado para cl_form1.lblcalific (label): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.txtfecha (textbox): 13 (Tamaño = 232 bytes)
+PROTECTED esperadas para cl_form1.txtfecha (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.txtfecha (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.txtfecha (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.txtfecha (textbox):
+Checksum OLE esperado para cl_form1.txtfecha (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.lblfecha (label): 11 (Tamaño = 169 bytes)
+PROTECTED esperadas para cl_form1.lblfecha (label): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.lblfecha (label): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.lblfecha (label): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.lblfecha (label):
+Checksum OLE esperado para cl_form1.lblfecha (label): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.txtresultado (textbox): 14 (Tamaño = 256 bytes)
+PROTECTED esperadas para cl_form1.txtresultado (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.txtresultado (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.txtresultado (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.txtresultado (textbox):
+Checksum OLE esperado para cl_form1.txtresultado (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.lblresultado (label): 11 (Tamaño = 178 bytes)
+PROTECTED esperadas para cl_form1.lblresultado (label): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.lblresultado (label): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.lblresultado (label): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.lblresultado (label):
+Checksum OLE esperado para cl_form1.lblresultado (label): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas (grid): 33 (Tamaño = 793 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas (grid): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas (grid): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas (grid): 1 (Tamaño = 85 bytes)
+OLE2 esperado para cl_form1.grdencuestas (grid):
+Checksum OLE esperado para cl_form1.grdencuestas (grid): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column1.header1 (header): 2 (Tamaño = 40 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column1.header1 (header): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column1.header1 (header): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column1.header1 (header): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column1.header1 (header):
+Checksum OLE esperado para cl_form1.grdencuestas.column1.header1 (header): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column1.text1 (textbox): 7 (Tamaño = 124 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column1.text1 (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column1.text1 (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column1.text1 (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column1.text1 (textbox):
+Checksum OLE esperado para cl_form1.grdencuestas.column1.text1 (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column2.header1 (header): 2 (Tamaño = 37 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column2.header1 (header): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column2.header1 (header): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column2.header1 (header): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column2.header1 (header):
+Checksum OLE esperado para cl_form1.grdencuestas.column2.header1 (header): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column2.text1 (textbox): 7 (Tamaño = 124 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column2.text1 (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column2.text1 (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column2.text1 (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column2.text1 (textbox):
+Checksum OLE esperado para cl_form1.grdencuestas.column2.text1 (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column3.header1 (header): 2 (Tamaño = 39 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column3.header1 (header): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column3.header1 (header): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column3.header1 (header): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column3.header1 (header):
+Checksum OLE esperado para cl_form1.grdencuestas.column3.header1 (header): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column3.text1 (textbox): 7 (Tamaño = 124 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column3.text1 (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column3.text1 (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column3.text1 (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column3.text1 (textbox):
+Checksum OLE esperado para cl_form1.grdencuestas.column3.text1 (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column4.header1 (header): 2 (Tamaño = 37 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column4.header1 (header): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column4.header1 (header): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column4.header1 (header): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column4.header1 (header):
+Checksum OLE esperado para cl_form1.grdencuestas.column4.header1 (header): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column4.text1 (textbox): 7 (Tamaño = 124 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column4.text1 (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column4.text1 (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column4.text1 (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column4.text1 (textbox):
+Checksum OLE esperado para cl_form1.grdencuestas.column4.text1 (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column5.header1 (header): 2 (Tamaño = 41 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column5.header1 (header): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column5.header1 (header): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column5.header1 (header): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column5.header1 (header):
+Checksum OLE esperado para cl_form1.grdencuestas.column5.header1 (header): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.grdencuestas.column5.text1 (textbox): 7 (Tamaño = 124 bytes)
+PROTECTED esperadas para cl_form1.grdencuestas.column5.text1 (textbox): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.grdencuestas.column5.text1 (textbox): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.grdencuestas.column5.text1 (textbox): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.grdencuestas.column5.text1 (textbox):
+Checksum OLE esperado para cl_form1.grdencuestas.column5.text1 (textbox): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.commandgroup1 (commandgroup): 25 (Tamaño = 565 bytes)
+PROTECTED esperadas para cl_form1.commandgroup1 (commandgroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.commandgroup1 (commandgroup): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.commandgroup1 (commandgroup): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.commandgroup1 (commandgroup):
+Checksum OLE esperado para cl_form1.commandgroup1 (commandgroup): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.optiongroup1 (optiongroup): 29 (Tamaño = 614 bytes)
+PROTECTED esperadas para cl_form1.optiongroup1 (optiongroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.optiongroup1 (optiongroup): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.optiongroup1 (optiongroup): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.optiongroup1 (optiongroup):
+Checksum OLE esperado para cl_form1.optiongroup1 (optiongroup): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paraelform_fb2p_frm_1_scx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form1.cl_olecontrol1 (cl_olecontrol): 5 (Tamaño = 74 bytes)
+PROTECTED esperadas para cl_form1.cl_olecontrol1 (cl_olecontrol): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form1.cl_olecontrol1 (cl_olecontrol): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form1.cl_olecontrol1 (cl_olecontrol): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form1.cl_olecontrol1 (cl_olecontrol): OLEObject = C:\Windows\system32\richtx32.ocx
+
+Checksum OLE esperado para cl_form1.cl_olecontrol1 (cl_olecontrol): 5189
+
+********************************************************************************
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElForm_FB2P_FRM_2_SCX_YValidarElOrdenDeLasPropsDelObjeto_PageFrame1
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:47 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_2.SC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_2.SCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_2.SCT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Línea : Valor esperado => Valor actual
+--------------------------------------------------
+Línea 1: ErasePage => ErasePage
+Línea 2: PageCount => PageCount
+Línea 3: ActivePage => ActivePage
+Línea 4: Top => Top
+Línea 5: Left => Left
+Línea 6: Height => Height
+Línea 7: Width => Width
+Línea 8: Name => Name
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElForm_FB2P_FRM_2_SCX_YValidarElOrdenDeLasPropsDelObjeto_Optiongroup1
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:47 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_2.SC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_2.SCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_frm_2.SCT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Línea : Valor esperado => Valor actual
+--------------------------------------------------
+Línea 1: ButtonCount => ButtonCount
+Línea 2: Value => Value
+Línea 3: Height => Height
+Línea 4: Left => Left
+Línea 5: Top => Top
+Línea 6: Width => Width
+Línea 7: Name => Name
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaLaLibreria_FB2P_TEST_VCX_YValidarLosCamposDelRegistro
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:47 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test.VC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test.VCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test.VCT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para . (): 0 (Tamaño = 0 bytes)
+PROTECTED esperadas para . (): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para . (): 0 (Tamaño = 0 bytes)
+METHODS esperadas para . (): 0 (Tamaño = 0 bytes)
+OLE2 esperado para . ():
+Checksum OLE esperado para . (): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .cl_optiongroup (optiongroup): 20 (Tamaño = 449 bytes)
+PROTECTED esperadas para .cl_optiongroup (optiongroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_optiongroup (optiongroup): 4 (Tamaño = 202 bytes)
+METHODS esperadas para .cl_optiongroup (optiongroup): 2 (Tamaño = 327 bytes)
+OLE2 esperado para .cl_optiongroup (optiongroup):
+Checksum OLE esperado para .cl_optiongroup (optiongroup): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .cl_olecontrol (olecontrol): 3 (Tamaño = 50 bytes)
+PROTECTED esperadas para .cl_olecontrol (olecontrol): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_olecontrol (olecontrol): 0 (Tamaño = 0 bytes)
+METHODS esperadas para .cl_olecontrol (olecontrol): 0 (Tamaño = 0 bytes)
+OLE2 esperado para .cl_olecontrol (olecontrol): OLEObject = C:\Windows\system32\richtx32.ocx
+
+Checksum OLE esperado para .cl_olecontrol (olecontrol): 49065
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .cl_imagen (image): 4 (Tamaño = 77 bytes)
+PROTECTED esperadas para .cl_imagen (image): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_imagen (image): 1 (Tamaño = 72 bytes)
+METHODS esperadas para .cl_imagen (image): 1 (Tamaño = 92 bytes)
+OLE2 esperado para .cl_imagen (image):
+Checksum OLE esperado para .cl_imagen (image): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .proj_hook (projecthook): 3 (Tamaño = 45 bytes)
+PROTECTED esperadas para .proj_hook (projecthook): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .proj_hook (projecthook): 0 (Tamaño = 0 bytes)
+METHODS esperadas para .proj_hook (projecthook): 0 (Tamaño = 0 bytes)
+OLE2 esperado para .proj_hook (projecthook):
+Checksum OLE esperado para .proj_hook (projecthook): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .cl_commandgroup (commandgroup): 18 (Tamaño = 382 bytes)
+PROTECTED esperadas para .cl_commandgroup (commandgroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_commandgroup (commandgroup): 1 (Tamaño = 49 bytes)
+METHODS esperadas para .cl_commandgroup (commandgroup): 0 (Tamaño = 0 bytes)
+OLE2 esperado para .cl_commandgroup (commandgroup):
+Checksum OLE esperado para .cl_commandgroup (commandgroup): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para .cl_form (form): 11 (Tamaño = 388 bytes)
+PROTECTED esperadas para .cl_form (form): 4 (Tamaño = 44 bytes)
+RESERVED3 esperadas para .cl_form (form): 5 (Tamaño = 164 bytes)
+METHODS esperadas para .cl_form (form): 0 (Tamaño = 0 bytes)
+OLE2 esperado para .cl_form (form):
+Checksum OLE esperado para .cl_form (form): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form.cl_optiongroup1 (cl_optiongroup): 20 (Tamaño = 421 bytes)
+PROTECTED esperadas para cl_form.cl_optiongroup1 (cl_optiongroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form.cl_optiongroup1 (cl_optiongroup): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form.cl_optiongroup1 (cl_optiongroup): 1 (Tamaño = 381 bytes)
+OLE2 esperado para cl_form.cl_optiongroup1 (cl_optiongroup):
+Checksum OLE esperado para cl_form.cl_optiongroup1 (cl_optiongroup): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form.cl_commandgroup1 (cl_commandgroup): 20 (Tamaño = 463 bytes)
+PROTECTED esperadas para cl_form.cl_commandgroup1 (cl_commandgroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form.cl_commandgroup1 (cl_commandgroup): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form.cl_commandgroup1 (cl_commandgroup): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form.cl_commandgroup1 (cl_commandgroup):
+Checksum OLE esperado para cl_form.cl_commandgroup1 (cl_commandgroup): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form.cl_imagen1 (cl_imagen): 7 (Tamaño = 114 bytes)
+PROTECTED esperadas para cl_form.cl_imagen1 (cl_imagen): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form.cl_imagen1 (cl_imagen): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form.cl_imagen1 (cl_imagen): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form.cl_imagen1 (cl_imagen):
+Checksum OLE esperado para cl_form.cl_imagen1 (cl_imagen): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarloscamposdelregistro
+PROPERTIES esperadas para cl_form.cl_imagen2 (cl_imagen): 7 (Tamaño = 111 bytes)
+PROTECTED esperadas para cl_form.cl_imagen2 (cl_imagen): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form.cl_imagen2 (cl_imagen): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form.cl_imagen2 (cl_imagen): 0 (Tamaño = 0 bytes)
+OLE2 esperado para cl_form.cl_imagen2 (cl_imagen):
+Checksum OLE esperado para cl_form.cl_imagen2 (cl_imagen): 65535
+
+********************************************************************************
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaLaLibreria_FB2P_TEST_VCX_YValidarEl_BUG_DelMetodoMovidoEntreClases
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:47 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_metodo_movido.VC2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_metodo_movido.VC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_metodo_movido.VCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_metodo_movido.VCT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarel_bug_delmetodomovidoentreclases
+PROPERTIES esperadas para . (): 0 (Tamaño = 0 bytes)
+PROTECTED esperadas para . (): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para . (): 0 (Tamaño = 0 bytes)
+METHODS esperadas para . (): 0 (Tamaño = 0 bytes)
+OLE2 esperado para . ():
+Checksum OLE esperado para . (): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarel_bug_delmetodomovidoentreclases
+PROPERTIES esperadas para .cl_optiongroup (optiongroup): 18 (Tamaño = 360 bytes)
+PROTECTED esperadas para .cl_optiongroup (optiongroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_optiongroup (optiongroup): 0 (Tamaño = 0 bytes)
+METHODS esperadas para .cl_optiongroup (optiongroup): 1 (Tamaño = 444 bytes)
+OLE2 esperado para .cl_optiongroup (optiongroup):
+Checksum OLE esperado para .cl_optiongroup (optiongroup): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarel_bug_delmetodomovidoentreclases
+PROPERTIES esperadas para .cl_commandgroup (commandgroup): 17 (Tamaño = 358 bytes)
+PROTECTED esperadas para .cl_commandgroup (commandgroup): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_commandgroup (commandgroup): 0 (Tamaño = 0 bytes)
+METHODS esperadas para .cl_commandgroup (commandgroup): 1 (Tamaño = 219 bytes)
+OLE2 esperado para .cl_commandgroup (commandgroup):
+Checksum OLE esperado para .cl_commandgroup (commandgroup): 65535
+
+********************************************************************************
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaLaLibreria_FB2P_TEST_VCX_YValidarEl_BUG_Del_PROCEDURE_SIN_ENDPROC
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:48 AM
+Set oTestResult properties
+Run TestOptimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_estructural.VC2] no se regenera por ser más nuevo que el de entrada.* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_estructural.VC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_estructural.VCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\fb2p_test_bug_estructural.VCT]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarel_bug_del_procedure_sin_endproc
+PROPERTIES esperadas para . (): 0 (Tamaño = 0 bytes)
+PROTECTED esperadas para . (): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para . (): 0 (Tamaño = 0 bytes)
+METHODS esperadas para . (): 0 (Tamaño = 0 bytes)
+OLE2 esperado para . ():
+Checksum OLE esperado para . (): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarel_bug_del_procedure_sin_endproc
+PROPERTIES esperadas para .cl_form (form): 3 (Tamaño = 52 bytes)
+PROTECTED esperadas para .cl_form (form): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para .cl_form (form): 0 (Tamaño = 0 bytes)
+METHODS esperadas para .cl_form (form): 1 (Tamaño = 263 bytes)
+OLE2 esperado para .cl_form (form):
+Checksum OLE esperado para .cl_form (form): 65535
+
+********************************************************************************
+ut__foxbin2prg.deberia_ejecutar_foxbin2prg_paralalibreria_fb2p_test_vcx_yvalidarel_bug_del_procedure_sin_endproc
+PROPERTIES esperadas para cl_form.command1 (commandbutton): 6 (Tamaño = 87 bytes)
+PROTECTED esperadas para cl_form.command1 (commandbutton): 0 (Tamaño = 0 bytes)
+RESERVED3 esperadas para cl_form.command1 (commandbutton): 0 (Tamaño = 0 bytes)
+METHODS esperadas para cl_form.command1 (commandbutton): 1 (Tamaño = 264 bytes)
+OLE2 esperado para cl_form.command1 (commandbutton):
+Checksum OLE esperado para cl_form.command1 (commandbutton): 65535
+
+********************************************************************************
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Evaluate_Bitmap_Test
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:48 AM
+Set oTestResult properties
+Run Test
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = * Support method, not a valid test.
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaLaClase__LIB_CONTROLES__F_OptionGroup__YValidarLaVisualizacionDePantalla
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:48 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\lib_controles.VC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\lib_controles.VCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\lib_controles.VCT]Optimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\lib_controles.VC2] no se sobreescribe por ser igual al generado.- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\lib_controles.VC2]Optimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\lib_controles.VCX] no se regenera por ser más nuevo que el de entrada.- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\lib_controles.VCX]
+Set lTestPassed to.T.
+Set results properties
+cResults = Passed
+cMessage = Se comparan bitmaps de pantalla, para saber si hay cambios estéticos y detectar fallos al ensamblar el binario
+lcBMP0 = TESTS\DATOS_TEST\OptionGroup_Test_0.bmp
+lcBMP1 = TESTS\DATOS_TEST\OptionGroup_Test_1.bmp
+Generate Results
+Parameters:
+tcTest:        ut__foxbin2prg
+tcTestMethod:  Deberia_Ejecutar_FOXBIN2PRG_ParaElForm__F_OptionGroup__YValidarLaVisualizacionDePantalla
+tcSourcePath:  C:\DESA\foxbin2prg\TESTS
+tcResultsFile: C:\DESA\FOXBIN2PRG\Tests\ResultsFile.xml
+
+Directory: C:\DESA\FOXBIN2PRG
+set("Path"): DATOS;DATA;PGMS;PRGS;TARIFAS;PANT;FORMS;MENS;MENUS;CLASES;BMPS;IMAGEN;INFORMES;REPORTS;INCLUDE;COBERTURAS;C:\DESA\FOXUNIT;FOXUNIT;TESTS;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC;C:\ARCHIVOS DE PROGRAMA\MICROSOFT VISUAL FOXPRO 9\FFC\GRAPHICS; C:\DESA\TEST\VARIOS\PRUEBAS_CON_FOXUNIT\FOXUNIT
+_vfp.StartMode: 0
+FoxUnitSetup 06/02/14 12:15:52 AM
+Set oTestResult properties
+Run Test* Se ha encontrado el programa de capitalización de nombres [C:\DESA\FOXBIN2PRG\filename_caps.exe]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\f_optiongroup.SC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\f_optiongroup.SCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\f_optiongroup.SCT]Optimización: El archivo de salida [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\f_optiongroup.SC2] no se sobreescribe por ser igual al generado.- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\f_optiongroup.SC2]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\f_optiongroup.SCX]- Solicitado capitalizar el archivo [C:\DESA\foxbin2prg\TESTS\DATOS_TEST\f_optiongroup.SCT]
+Set lTestPassed to.F.
+Set results properties
+cResults = Failed
+cMessage = Se comparan bitmaps de pantalla, para saber si hay cambios estéticos y detectar fallos al ensamblar el binario
+lcBMP0 = TESTS\DATOS_TEST\OptionGroup_Test_0.bmp
+lcBMP1 = TESTS\DATOS_TEST\OptionGroup_Test_1.bmp
+Generate Results

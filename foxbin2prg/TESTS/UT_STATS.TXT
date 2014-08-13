@@ -1,0 +1,4 @@
+<TestStats>
+	<TestsOK>144 of 155</TestsOK>
+	<TestsFailed>11 of 155</TestsFailed>
+</TestStats>

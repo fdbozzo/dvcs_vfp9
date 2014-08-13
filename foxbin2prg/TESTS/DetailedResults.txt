@@ -1,0 +1,551 @@
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg
+Test Name: Deberia_Ejecutar_FOXBIN2PRG_ParaElForm__F_OptionGroup__YValidarLaVisualizacionDePantalla
+Total execution time: 1.202 seconds
+Result: Failed
+Messages: Se comparan bitmaps de pantalla, para saber si hay cambios estéticos y detectar fallos al ensamblar el binario
+lcBMP0 = TESTS\DATOS_TEST\OptionGroup_Test_0.bmp
+lcBMP1 = TESTS\DATOS_TEST\OptionGroup_Test_1.bmp
+Failed Tests: 0
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+Exception Info: None
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_conversor_base__identificarBloquesDeCodigo
+Test Name: Deberia_obtenerLaUbicacionDelBloque_DEFINE_CLASS_CuandoUnBloqueCon_DEFINE_CLASS_ENDDEFINE_esEvaluado
+Total execution time: 0.070 seconds
+Result: Failed
+Messages: 
+Failed Tests: 1
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .Error Number: 12Error Message: Variable 'LCLINE' is not found.******** Line Contents **********ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_conversor_base__identificarBloquesDeCodigo
+Test Name: Should_getUbicationDataOf_2_DEFINE_CLASS_Blocks_When_BlockCodeWith_DEFINE_CLASS_ENDDEFINE_areEvaluated
+Total execution time: 0.030 seconds
+Result: Failed
+Messages: 
+Failed Tests: 2
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .Error Number: 1924Error Message: LOMODULO_ESPERADO is not an object.******** Line Contents **********loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_conversor_base__identificarBloquesDeCodigo
+Test Name: Should_getUbicationDataOf_DEFINE_CLASS_Block_When_BlockCodeWith_DEFINE_CLASS_IF_DEFINECLASS_ENDIF_ENDDEFINE_isEvaluated
+Total execution time: 0.060 seconds
+Result: Failed
+Messages: 
+Failed Tests: 3
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .Error Number: 1924Error Message: LOMODULO_ESPERADO is not an object.******** Line Contents **********loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_conversor_base__IdentificarBloquesDeExclusion
+Test Name: Evaluate_results
+Total execution time: 0.020 seconds
+Result: Failed
+Messages: * Support method, not a valid test.
+Failed Tests: 3
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .Error Number: 1924Error Message: LOMODULO_ESPERADO is not an object.******** Line Contents **********loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_foxbin2prg__EvaluarConfiguracion
+Test Name: Deberia_Setear_ClearUniqueID_True_CuandoElArhivo_foxbin2prg_cfg_Tenga_ClearUniqueID_1
+Total execution time: 0.010 seconds
+Result: Failed
+Messages: 
+Failed Tests: 4
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 26 of setup .Error Number: 1705Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.******** Line Contents **********ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_foxbin2prg__EvaluarConfiguracion
+Test Name: Deberia_Setear_ShowProgress_True_CuandoNoExistaElArhivo_foxbin2prg_cfg
+Total execution time: 0.010 seconds
+Result: Failed
+Messages: 
+Failed Tests: 5
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 105 of setup_comun .Error Number: 1705Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.******** Line Contents **********ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_foxbin2prg__EvaluarConfiguracion
+Test Name: Deberia_Setear_ShowProgress_True_CuandoElArhivo_foxbin2prg_cfg_Tenga_DontShowProgress_0
+Total execution time: 0.010 seconds
+Result: Failed
+Messages: 
+Failed Tests: 6
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 105 of setup_comun .Error Number: 1705Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.******** Line Contents **********ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_foxbin2prg__EvaluarConfiguracion
+Test Name: Deberia_SetearLaExtension_SC2_Como_SC2_CuandoNoExistaElArhivo_foxbin2prg_cfg
+Total execution time: 0.010 seconds
+Result: Failed
+Messages: 
+Failed Tests: 7
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 26 of setup .Error Number: 1705Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.******** Line Contents **********ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_foxbin2prg__EvaluarConfiguracion
+Test Name: Deberia_SetearLaExtension_SC2_Como_SCA_CuandoElArhivo_foxbin2prg_cfg_TengaExtension_SC2_igual_SCA
+Total execution time: 0.010 seconds
+Result: Failed
+Messages: 
+Failed Tests: 8
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 105 of setup_comun .Error Number: 1705Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.******** Line Contents **********ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )*********************************       
+Teardown Exception: None
+
+--------------------------------------------------------------------------------------
+Test Class: ut__foxbin2prg__c_foxbin2prg__EvaluarConfiguracion
+Test Name: Deberia_SetearLaExtension_VC2_Como_VC2_CuandoNoExistaElArhivo_foxbin2prg_cfg
+Total execution time: 0.010 seconds
+Result: Failed
+Messages: 
+Failed Tests: 9
+Failed Error Details: -------------------------------
+------Assertion Failure
+-------------------------------
+COMPARACIÓN DE BITMAPS
+AssertTrue Returned False
+******** Error/Exception **********
+An error occurred on line 110 of deberia_obtenerlaubicaciondelbloque_define_class_cuandounbloquecon_define_class_enddefine_esevaluado .
+Error Number: 12
+Error Message: Variable 'LCLINE' is not found.
+******** Line Contents **********
+ADDPROPERTY( loOLEObj, 'nombre',	ALLTRIM( STREXTRACT( lcLine, 'nombre = "', '"', 1, 1 ) ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 235 of should_getubicationdataof_2_define_class_blocks_when_blockcodewith_define_class_enddefine_areevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 374 of should_getubicationdataof_define_class_block_when_blockcodewith_define_class_if_defineclass_endif_enddefine_isevaluated .
+Error Number: 1924
+Error Message: LOMODULO_ESPERADO is not an object.
+******** Line Contents **********
+loModulo_Esperado.Clases(lnBloques)	= CREATEOBJECT('EMPTY')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 26 of setup .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE ('TESTS\DATOS_TEST\foxbin2prg.cfg')
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+******** Error/Exception **********
+An error occurred on line 105 of setup_comun .
+Error Number: 1705
+Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.
+******** Line Contents **********
+ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )
+*********************************
+
+Exception Info: ******** Error/Exception **********An error occurred on line 105 of setup_comun .Error Number: 1705Error Message: File access is denied c:\desa\foxbin2prg\tests\datos_test\foxbin2prg.cfg.******** Line Contents **********ERASE (FORCEPATH( '*.*', THIS.cPathDatosTest ) )*********************************       
+Teardown Exception: None
+
