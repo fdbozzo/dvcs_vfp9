@@ -1,0 +1,65 @@
+Fernando D. Bozzo - fdbozzo@gmail.com - 2014-03-03
+
+-------------------------------------------------------------------------------
+¡BIENVENIDOS! :)
+-------------------------------------------------------------------------------
+
+Este es el primer archivo del proyecto, y el primero al que le hago check-in para protegerlo en la herramienta de control de código.
+En este caso particular, lo hago así porque GitHub aparentemente necesita que sea así, además de que esto hace que GitHub muestre este archivo primero en la portada, ya que el README.txt o LEAME.txt es lo primero que siempre se debe poder leer en un proyecto público u Open Source, para que se sepa de qué va el proyecto.
+
+Como ya comenté en el foro (https://groups.google.com/d/msg/publicesvfoxpro/AYIrwFOt8ts/J9Z-fAMx8aUJ), este proyecto lo usaremos para hacer las prácticas de Visual FoxPro 9 usando PlasticSCM como SCM (control de código fuente), y GitHub como repositorio compartido.
+
+La única norma que necesitamos para poder hacer las prácticas bien, y sobre todo para facilitar las tareas de merge (mezclado o integración de código) con el trabajo de todos los participantes, es respetar la siguiente convensión de nomenclatura del código, que es la misma que se sugiere en el archivo de ayuda de FoxPro, bajo el capítulo "Object Naming Conventions", y que forma una pequeña pero muy importante parte de las Buenas Prácticas de Programación:
+
+Prefijo			Objeto				Ejemplos
+--------------	------------------	---------------------
+chk				CheckBox			chkReadOnly 
+col				Collection			colFormObjects 
+cbo				ComboBox			cboEnglish 
+cmd				CommandButton		cmdCancel 
+cmg				CommandGroup		cmgChoices 
+cnt				Container			cntMoverList 
+ctl				Control				ctlFileList 
+edt				EditBox				edtTextArea 
+frm				Form				frmFileOpen 
+frs				FormSet				frsDataEntry 
+grd				Grid				grdPrices 
+grc				Column				grcCurrentPrice 
+grh				Header				grhTotalInventory 
+img				Image				imgIcon 
+lbl				Label				lblHelpMessage 
+lin				Line				linVertical 
+lst				ListBox				lstPolicyCodes 
+olb				OLEBoundControl		olbObject1 
+ole				OLE					oleObject1 
+opt				OptionButton		optFrench 
+opg				OptionGroup			opgType 
+pag				Page				pagDataUpdate 
+pgf				PageFrame			pgfLeft 
+sep				Separator			sepToolSection1 
+shp				Shape				shpCircle 
+spn				Spinner				spnValues 
+txt				TextBox				txtGetText 
+tmr				Timer				tmrAlarm 
+tbr				ToolBar				tbrEditReport 
+
+
+Algunos ejemplos combinados:
+-------------------------------------------------------------------------------
+frmClientes.pgfClientes.pagDatosPersonales.lblNombre		=> El label "Nombre"
+frmClientes.pgfClientes.pagDatosPersonales.txtNombre		=> El textbox donde se ingresa el dato
+frmClientes.pgfClientes.pagDatosPersonales.lblSexo			=> El label "Sexo"
+frmClientes.pgfClientes.pagDatosPersonales.cboSexo			=> El combobox para elegirlo
+frmClientes.pgfClientes.pagDireccion.txtCalle
+frmClientes.pgfClientes.pagDireccion.txtNumero
+frmCalculadora.cntBotones.cmdBoton1
+
+
+Creo que con estos ejemplos ya se hacen a la idea, además es lo mismo que muestro en el video sobre merge.
+
+
+Información relacionada:
+-------------------------------------------------------------------------------
+Herramientas FoxPro 9 para PlasticSCM: https://github.com/fdbozzo/foxpro_plastic_diff_merge
+Video demostración de merge en FoxPro 9: http://youtu.be/sE4wQ50Itqg
+
