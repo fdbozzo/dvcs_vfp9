@@ -77,6 +77,7 @@ DEFINE CLASS frm_test_fdb AS form
 	*< OBJECTDATA: ObjPath="cmdPag5" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="cmdPag6" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="cmdPag7" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="cmd_Mensaje" UniqueID="" Timestamp="" />
 
 	*<DefinedPropArrayMethod>
 		*m: buttoncontrol
@@ -90,9 +91,18 @@ DEFINE CLASS frm_test_fdb AS form
 	DoCreate = .T.
 	Height = 231
 	Left = 0
-	Name = "frm_test_fdb"
+	Name = "FRM_TEST_FDB"
 	Top = 0
 	Width = 550
+
+	ADD OBJECT 'cmd_Mensaje' AS commandbutton WITH ;
+		Caption = "Messagebox", ;
+		Height = 27, ;
+		Left = 80, ;
+		Name = "cmd_Mensaje", ;
+		Top = 188, ;
+		Width = 84
+		*< END OBJECT: BaseClass="commandbutton" />
 
 	ADD OBJECT 'cmdPag1' AS commandbutton WITH ;
 		Caption = "Pag.1", ;
@@ -803,6 +813,11 @@ DEFINE CLASS frm_test_fdb AS form
 	PROCEDURE cmdSalir.Click
 		THISFORM.Hide()
 		THISFORM.Release()
+		
+	ENDPROC
+
+	PROCEDURE cmd_Mensaje.Click
+		MESSAGEBOX( SYS(0), 0+64, "Datos de esta PC" )
 		
 	ENDPROC
 
