@@ -1,12 +1,12 @@
 *       *********************************************************
 *       *                                                         
-*       * 2014/08/13        MENU_PRINCIPAL.MPR          23:17:52  
+*       * 08/17/2014        MENU_PRINCIPAL.MPR          11:27:31  
 *       *                                                         
 *       *********************************************************
 *       *                                                         
-*       * Este proyecto es del Grupo Visual FoxPro                
+*       * Author's Name                                           
 *       *                                                         
-*       * Copyright (C) 2014 No somos Company, somos Legión!      
+*       * Copyright (C) 2014 Company Name                         
 *       * Address                                                 
 *       * City,     Zip                                           
 *       *                                                         
@@ -29,11 +29,13 @@ DEFINE PAD _40L192ZE5 OF _MSYSMENU PROMPT "Aplicaciones Comunitarias VFP" COLOR 
 ON PAD _40L192ZE5 OF _MSYSMENU ACTIVATE POPUP aplicacion
 
 DEFINE POPUP aplicacion MARGIN RELATIVE SHADOW COLOR SCHEME 4
-DEFINE BAR 1 OF aplicacion PROMPT "fdbozzo"
-DEFINE BAR 2 OF aplicacion PROMPT "Fidel"
-DEFINE BAR 3 OF aplicacion PROMPT "Salir"
-DEFINE BAR 4 OF aplicacion PROMPT "Opcion vacía"
-ON SELECTION BAR 1 OF aplicacion do form frm_test_fdb
-ON SELECTION BAR 2 OF aplicacion do form frmedades
-ON SELECTION BAR 3 OF aplicacion SET SYSMENUS TO DEFAULT
-ON SELECTION BAR 4 OF aplicacion wait window "Esta es para provocar un merge manual a Fran :)"
+DEFINE BAR 1 OF aplicacion PROMPT "fajprieto"
+DEFINE BAR 2 OF aplicacion PROMPT "fdbozzo"
+DEFINE BAR 3 OF aplicacion PROMPT "Fidel"
+DEFINE BAR 4 OF aplicacion PROMPT "Salir"
+DEFINE BAR 5 OF aplicacion PROMPT "Opcion vacía"
+ON SELECTION BAR 1 OF aplicacion do form frm_fajprieto
+ON SELECTION BAR 2 OF aplicacion do form frm_test_fdb
+ON SELECTION BAR 3 OF aplicacion do form frmedades
+ON SELECTION BAR 4 OF aplicacion SET SYSMENUS TO DEFAULT
+ON SELECTION BAR 5 OF aplicacion wait window "Esta es para provocar un merge manual a Fran :)"
