@@ -17,7 +17,7 @@ DEFINE CLASS dataenvironment AS dataenvironment
 
 ENDDEFINE
 
-DEFINE CLASS form1 AS form 
+DEFINE CLASS frm_giro AS form 
  	*< CLASSDATA: Baseclass="form" Timestamp="" Scale="" Uniqueid="" />
 
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
@@ -26,13 +26,15 @@ DEFINE CLASS form1 AS form
 	*< OBJECTDATA: ObjPath="lbl_Aguja" UniqueID="" Timestamp="" />
 
 	AutoCenter = .T.
+	BorderStyle = 2
 	Caption = "Giro"
 	DoCreate = .T.
 	Height = 69
 	MaxButton = .F.
 	MinButton = .F.
-	Name = "Form1"
-	Width = 115
+	Name = "frm_giro"
+	ShowTips = .T.
+	Width = 117
 
 	ADD OBJECT 'cmd_giroAbajo' AS commandbutton WITH ;
 		Caption = "Ê", ;
@@ -41,6 +43,7 @@ DEFINE CLASS form1 AS form
 		Height = 27, ;
 		Left = 12, ;
 		Name = "cmd_giroAbajo", ;
+		ToolTipText = "Gira hacia abajo", ;
 		Top = 36, ;
 		Width = 44
 		*< END OBJECT: BaseClass="commandbutton" />
@@ -52,6 +55,7 @@ DEFINE CLASS form1 AS form
 		Height = 27, ;
 		Left = 60, ;
 		Name = "cmd_giroarriba", ;
+		ToolTipText = "Gira hacia arriba", ;
 		Top = 36, ;
 		Width = 44
 		*< END OBJECT: BaseClass="commandbutton" />
