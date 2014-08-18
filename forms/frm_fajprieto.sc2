@@ -40,6 +40,7 @@ DEFINE CLASS frm_giro AS form
 		Caption = "Ê", ;
 		FontName = "Wingdings", ;
 		FontSize = 14, ;
+		ForeColor = 0,128,64, ;
 		Height = 27, ;
 		Left = 12, ;
 		Name = "cmd_giroAbajo", ;
@@ -52,6 +53,7 @@ DEFINE CLASS frm_giro AS form
 		Caption = "Ä", ;
 		FontName = "Wingdings", ;
 		FontSize = 14, ;
+		ForeColor = 0,128,128, ;
 		Height = 27, ;
 		Left = 60, ;
 		Name = "cmd_giroarriba", ;
