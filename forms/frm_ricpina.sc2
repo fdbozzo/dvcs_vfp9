@@ -26,6 +26,7 @@ DEFINE CLASS frm_ricpina AS form
 	*< OBJECTDATA: ObjPath="Cmd_default" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Img_fondo" UniqueID="" Timestamp="" />
 	*< OBJECTDATA: ObjPath="Opt_fondo" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="Command1" UniqueID="" Timestamp="" />
 
 	*<DefinedPropArrayMethod>
 		*m: establecefondo
@@ -68,6 +69,16 @@ DEFINE CLASS frm_ricpina AS form
 		Left = 610, ;
 		Name = "Cmd_salir", ;
 		Top = 408, ;
+		Width = 120
+		*< END OBJECT: BaseClass="commandbutton" />
+
+	ADD OBJECT 'Command1' AS commandbutton WITH ;
+		Anchor = 66, ;
+		Caption = "Quitar Fondo", ;
+		Height = 27, ;
+		Left = 307, ;
+		Name = "Command1", ;
+		Top = 336, ;
 		Width = 120
 		*< END OBJECT: BaseClass="commandbutton" />
 
@@ -116,45 +127,56 @@ DEFINE CLASS frm_ricpina AS form
 		*< END OBJECT: BaseClass="optiongroup" />
 	
 	PROCEDURE establecefondo
+		PARAMETERS tl_flag
+		
 		LOCAL lcpicture
 		
 		WITH Thisform
-			lcpicture = .img_fondo.Picture
-			DO CASE 
+			IF tl_flag
+				lcpicture = .img_fondo.Picture
+				DO CASE 
 		
-				CASE .opt_fondo.Value=1 &&Mozaico
-					.Picture=lcpicture
-					If Type(".oImg")="O"
-						.RemoveObject("oImg")
-					Endif
+					CASE .opt_fondo.Value=1 &&Mozaico
+						.Picture=lcpicture
+						If Type(".oImg")="O"
+							.RemoveObject("oImg")
+						Endif
 		
-				CASE .opt_fondo.Value=2 &&Centrado
-					.Picture = ""
-					If Type(".oImg")<>"O"
-						.AddObject("oImg", "image")
-					Endif
-					.oImg.Stretch = 0
-			 		.oImg.Picture = lcpicture
-					.oImg.Left = .Width/2 - .oImg.Width/2
-					.oImg.Top = .Height/2 - .oImg.Height/2
-					.oImg.Visible = NOT EMPTY(lcpicture)
-					.oImg.Zorder(1)
-				
-				CASE .opt_fondo.Value=3 &&Relleno
-					.Picture = ""
-					If Type(".oImg")<>"O"
-						.AddObject("oImg", "image")
-					Endif
-					.oImg.Stretch = 2 
-					.oImg.Picture = lcpicture
-					.oImg.Left = 1
-					.oImg.Top = 1
-					.oImg.Width = .Width - 2
-					.oImg.Height = .Height - 2
-					.oImg.Visible = NOT EMPTY(lcpicture)
-					.oImg.Zorder(1)
+					CASE .opt_fondo.Value=2 &&Centrado
+						.Picture = ""
+						If Type(".oImg")<>"O"
+							.AddObject("oImg", "image")
+						Endif
+						.oImg.Stretch = 0
+				 		.oImg.Picture = lcpicture
+						.oImg.Left = .Width/2 - .oImg.Width/2
+						.oImg.Top = .Height/2 - .oImg.Height/2
+						.oImg.Visible = NOT EMPTY(lcpicture)
+						.oImg.Zorder(1)
+					
+					CASE .opt_fondo.Value=3 &&Relleno
+						.Picture = ""
+						If Type(".oImg")<>"O"
+							.AddObject("oImg", "image")
+						Endif
+						.oImg.Stretch = 2 
+						.oImg.Picture = lcpicture
+						.oImg.Left = 1
+						.oImg.Top = 1
+						.oImg.Width = .Width - 2
+						.oImg.Height = .Height - 2
+						.oImg.Visible = NOT EMPTY(lcpicture)
+						.oImg.Zorder(1)
 		
-			ENDCASE
+				ENDCASE
+			ELSE
+				lcpicture = ""
+				.Picture = lcpicture 
+				If Type(".oImg")="O"
+					.RemoveObject("oImg")
+				Endif
+				.img_fondo.Picture = lcpicture 
+			ENDIF
 		ENDWITH
 		
 	ENDPROC
@@ -174,7 +196,7 @@ DEFINE CLASS frm_ricpina AS form
 	ENDPROC
 
 	PROCEDURE Cmd_default.Click
-		Thisform.establecefondo()
+		Thisform.establecefondo(.T.)
 	ENDPROC
 
 	PROCEDURE Cmd_salir.Click
@@ -182,8 +204,12 @@ DEFINE CLASS frm_ricpina AS form
 		
 	ENDPROC
 
+	PROCEDURE Command1.Click
+		Thisform.establecefondo(.F.)
+	ENDPROC
+
 	PROCEDURE Opt_fondo.InteractiveChange
-		Thisform.establecefondo()
+		Thisform.establecefondo(.T.)
 		
 	ENDPROC
 
