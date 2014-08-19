@@ -22,11 +22,22 @@ DEFINE CLASS frmfidel AS form
 
 	*-- OBJECTDATA items order determines ZOrder / El orden de los items OBJECTDATA determina el ZOrder 
 	*< OBJECTDATA: ObjPath="imgTheodore" UniqueID="" Timestamp="" />
+	*< OBJECTDATA: ObjPath="cmdTheodore" UniqueID="" Timestamp="" />
 
 	BackColor = 184,201,197
 	Caption = "Formulario"
 	DoCreate = .T.
 	Name = "FRMFIDEL"
+
+	ADD OBJECT 'cmdTheodore' AS commandbutton WITH ;
+		Caption = "Quién es?", ;
+		FontSize = 8, ;
+		Height = 22, ;
+		Left = 264, ;
+		Name = "cmdTheodore", ;
+		Top = 135, ;
+		Width = 70
+		*< END OBJECT: BaseClass="commandbutton" />
 
 	ADD OBJECT 'imgTheodore' AS image WITH ;
 		Height = 108, ;
@@ -36,5 +47,12 @@ DEFINE CLASS frmfidel AS form
 		Top = 24, ;
 		Width = 108
 		*< END OBJECT: BaseClass="image" />
+	
+	PROCEDURE cmdTheodore.Click
+		MESSAGEBOX("Theodore (o Teodoro) era mi perro."+CHR(13);
+			+"Nació el 11/04/2006 » Murió el 27/12/2012"+CHR(13);
+			+"Aún lo extraño...",0,"Mensaje...")
+			
+	ENDPROC
 
 ENDDEFINE
