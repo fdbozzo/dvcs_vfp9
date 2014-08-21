@@ -48,7 +48,7 @@ DEFINE CLASS frm_ricpina AS form
 		Height = 27, ;
 		Left = 80, ;
 		Name = "Cmd_busca", ;
-		Top = 292, ;
+		Top = 257, ;
 		Width = 120
 		*< END OBJECT: BaseClass="commandbutton" />
 
@@ -58,7 +58,7 @@ DEFINE CLASS frm_ricpina AS form
 		Height = 27, ;
 		Left = 308, ;
 		Name = "Cmd_default", ;
-		Top = 292, ;
+		Top = 257, ;
 		Width = 120
 		*< END OBJECT: BaseClass="commandbutton" />
 
@@ -68,7 +68,7 @@ DEFINE CLASS frm_ricpina AS form
 		Height = 27, ;
 		Left = 610, ;
 		Name = "Cmd_salir", ;
-		Top = 408, ;
+		Top = 373, ;
 		Width = 120
 		*< END OBJECT: BaseClass="commandbutton" />
 
@@ -78,7 +78,7 @@ DEFINE CLASS frm_ricpina AS form
 		Height = 27, ;
 		Left = 307, ;
 		Name = "Command1", ;
-		Top = 336, ;
+		Top = 301, ;
 		Width = 120
 		*< END OBJECT: BaseClass="commandbutton" />
 
@@ -88,7 +88,7 @@ DEFINE CLASS frm_ricpina AS form
 		Left = 61, ;
 		Name = "Img_fondo", ;
 		Stretch = 1, ;
-		Top = 112, ;
+		Top = 77, ;
 		Width = 167
 		*< END OBJECT: BaseClass="image" />
 
@@ -99,7 +99,7 @@ DEFINE CLASS frm_ricpina AS form
 		Height = 108, ;
 		Left = 288, ;
 		Name = "Opt_fondo", ;
-		Top = 160, ;
+		Top = 125, ;
 		Value = 1, ;
 		Width = 156, ;
 		Option1.Caption = " Fondo Mozaico", ;
