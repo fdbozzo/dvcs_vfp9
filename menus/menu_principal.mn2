@@ -15,16 +15,19 @@ ON PAD _40L192ZE5 OF _MSYSMENU ACTIVATE POPUP Aplicacion
 
 	*----------------------------------
 	DEFINE POPUP Aplicacion MARGIN RELATIVE SHADOW COLOR SCHEME 4
-	DEFINE BAR 1 OF Aplicacion PROMPT "fdbozzo"
-	ON SELECTION BAR 1 OF Aplicacion do form frm_test_fdb
+	DEFINE BAR 1 OF Aplicacion PROMPT "fajprieto"
+	ON SELECTION BAR 1 OF Aplicacion do form frm_fajprieto
 
-	DEFINE BAR 2 OF Aplicacion PROMPT "Fidel"
-	ON SELECTION BAR 2 OF Aplicacion do form frmedades
+	DEFINE BAR 2 OF Aplicacion PROMPT "fdbozzo"
+	ON SELECTION BAR 2 OF Aplicacion do form frm_test_fdb
 
-	DEFINE BAR 3 OF Aplicacion PROMPT "Salir"
-	ON SELECTION BAR 3 OF Aplicacion SET SYSMENUS TO DEFAULT
+	DEFINE BAR 3 OF Aplicacion PROMPT "Fidel"
+	ON SELECTION BAR 3 OF Aplicacion do form frmedades
 
-	DEFINE BAR 4 OF Aplicacion PROMPT "Opcion vacía"
-	ON SELECTION BAR 4 OF Aplicacion wait window "Esta es para provocar un merge manual a Fran :)"
+	DEFINE BAR 4 OF Aplicacion PROMPT "Salir"
+	ON SELECTION BAR 4 OF Aplicacion SET SYSMENUS TO DEFAULT
+
+	DEFINE BAR 5 OF Aplicacion PROMPT "Opcion vacía"
+	ON SELECTION BAR 5 OF Aplicacion wait window "Esta es para provocar un merge manual a Fran :)"
 
 *</MenuCode>
