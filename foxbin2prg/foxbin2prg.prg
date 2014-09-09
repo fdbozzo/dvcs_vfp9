@@ -98,9 +98,6 @@
 * 29/07/2014	FDBOZZO		v1.19.29	Arreglo bug vcx/scx: Un campo de tabla llamado "text" que comienza la línea puede confundirse con la estructura TEXT/ENDTEXT y reconocer mal el resto del código
 * 07/08/2014	FDBOZZO		v1.19.30	Arreglo bug vcx/scx: Cuando la línea anterior a un ENDTEXT termina en ";" o "," no se reconoce como ENDTEXT sino como continuación (Jim Nelson)
 * 08/08/2014	FDBOZZO		v1.19.30	Arreglo bug vcx/vct v1.19.29: En ciertos casos de herencia no se mantiene el orden alfabetico de algunos metodos (Ryan Harris)
-* 17/08/2014	FDBOZZO		v1.19.31	Agregada versión del EXE cuando se genera LOG de depuración
-* 20/08/2014	FDBOZZO		v1.19.31	Mejora vcx/scx: Mejorado el reconocimiento de instrucciones #IF..#ENDIF cuando hay espacios entre # y el nombre de función
-* 20/08/2014	FDBOZZO		v1.19.31	Mejora: Ajuste de capitalización de los archivos origen, así ya no hay que hacerlo manualmente
 * </HISTORIAL DE CAMBIOS Y NOTAS IMPORTANTES>
 *
 *---------------------------------------------------------------------------------------------------
@@ -368,7 +365,6 @@ LPARAMETERS tc_InputFile, tcType, tcTextName, tlGenText, tcDontShowErrors, tcDeb
 	#DEFINE C_FOXBIN2PRG_JUST_VFP_9_LOC							"¡FOXBIN2PRG es solo para Visual FoxPro 9.0!"
 	#DEFINE C_FOXBIN2PRG_WARN_CAPTION_LOC						"FOXBIN2PRG: ¡ATENCIÓN!"
 	#DEFINE C_MENU_NOT_IN_VFP9_FORMAT_LOC						"El Menú [<<THIS.c_InputFile>>] NO está en formato VFP 9! - Por favor convertirlo a VFP 9 con MODIFY MENU <<JUSTFNAME((THIS.c_InputFile))>>"
-	#DEFINE C_LANGUAGE_LOC										"ES"
 	#DEFINE C_NAMES_CAPITALIZATION_PROGRAM_FOUND_LOC			"* Se ha encontrado el programa de capitalización de nombres [<<lcEXE_CAPS>>]"
 	#DEFINE C_NAMES_CAPITALIZATION_PROGRAM_NOT_FOUND_LOC		"* No se ha encontrado el programa de capitalización de nombres [<<lcEXE_CAPS>>]"
 	#DEFINE C_OBJECT_NAME_WITHOUT_OBJECT_OREG_LOC				"Objeto [<<toObj.CLASS>>] no contiene el objeto oReg (nivel <<TRANSFORM(tnNivel)>>)"
@@ -439,13 +435,11 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 	#ENDIF
 	_MEMBERDATA	= [<VFPData>] ;
 		+ [<memberdata name="convertir" display="Convertir"/>] ;
-		+ [<memberdata name="c_fb2prg_exe_version" display="c_FB2PRG_EXE_Version"/>] ;
 		+ [<memberdata name="c_curdir" display="c_CurDir"/>] ;
 		+ [<memberdata name="c_errorlog" display="c_ErrorLog"/>] ;
 		+ [<memberdata name="c_foxbin2prg_fullpath" display="c_Foxbin2prg_FullPath"/>] ;
 		+ [<memberdata name="c_foxbin2prg_configfile" display="c_Foxbin2prg_ConfigFile"/>] ;
 		+ [<memberdata name="c_inputfile" display="c_InputFile"/>] ;
-		+ [<memberdata name="c_language" display="c_Language"/>] ;
 		+ [<memberdata name="c_originalfilename" display="c_OriginalFileName"/>] ;
 		+ [<memberdata name="c_outputfile" display="c_OutputFile"/>] ;
 		+ [<memberdata name="c_type" display="c_Type"/>] ;
@@ -527,8 +521,6 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 	*-- Localized properties
 	c_loc_processing_file	= C_PROCESSING_LOC
 	*--
-	c_Language				= 'ES'
-	c_FB2PRG_EXE_Version	= 0
 	c_Foxbin2prg_FullPath	= ''
 	c_Foxbin2prg_ConfigFile	= ''
 	c_CurDir				= ''
@@ -590,7 +582,7 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 
 
 	PROCEDURE INIT
-		LOCAL lcSys16, lnPosProg, lc_Foxbin2prg_EXE, laValues(1,5)
+		LOCAL lcSys16, lnPosProg
 		SET DELETED ON
 		SET DATE YMD
 		SET HOURS TO 24
@@ -607,14 +599,11 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 			lnPosProg	= 1
 		ENDIF
 
-		THIS.c_Language					= C_LANGUAGE_LOC
 		THIS.c_Foxbin2prg_FullPath		= SUBSTR( lcSys16, lnPosProg )
 		THIS.c_Foxbin2prg_ConfigFile	= FORCEEXT( THIS.c_Foxbin2prg_FullPath, 'CFG' )
 		THIS.c_CurDir					= SYS(5) + CURDIR()
 		THIS.o_FSO						= NEWOBJECT("Scripting.FileSystemObject")
 		THIS.o_Configuration			= CREATEOBJECT("COLLECTION")
-		lc_Foxbin2prg_EXE				= FORCEEXT( THIS.c_Foxbin2prg_FullPath, 'EXE' )
-		THIS.c_FB2PRG_EXE_Version		= IIF( AGETFILEVERSION( laValues, lc_Foxbin2prg_EXE ) = 0, TRANSFORM(THIS.n_FB2PRG_Version), laValues(4) )
 		ADDPROPERTY(_SCREEN, 'ExitCode', 0)
 		RETURN
 	ENDPROC
@@ -1502,8 +1491,7 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 			WITH THIS AS c_foxbin2prg OF 'FOXBIN2PRG.PRG'
 				lnCodError		= 0
 
-				.writeLog( '---' )
-				.writeLog( .c_Foxbin2prg_FullPath + ' (EXE Version: ' + .c_FB2PRG_EXE_Version + ')' + CR_LF ;
+				.writeLog( .c_Foxbin2prg_FullPath + CR_LF ;
 					+ C_TAB + 'tc_InputFile:          ' + TRANSFORM(tc_InputFile) + CR_LF ;
 					+ C_TAB + 'tcType:                ' + TRANSFORM(tcType) + CR_LF;
 					+ C_TAB + 'tcTextName:            ' + TRANSFORM(tcTextName) + CR_LF ;
@@ -1883,7 +1871,6 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 				ENDIF
 
 				lcExtension	= UPPER( JUSTEXT(.c_InputFile) )
-				.normalizarCapitalizacionArchivos( .T. )
 
 				DO CASE
 				CASE lcExtension = 'VCX'
@@ -2179,11 +2166,9 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 
 	*******************************************************************************************************************
 	PROCEDURE normalizarCapitalizacionArchivos
-		LPARAMETERS tl_NormalizeInputFile
-
 		TRY
 			LOCAL lcPath, lcEXE_CAPS, lcOutputFile, loEx AS EXCEPTION ;
-				, loFSO AS Scripting.FileSystemObject, lcType
+				, loFSO AS Scripting.FileSystemObject
 
 			WITH THIS AS c_foxbin2prg OF 'FOXBIN2PRG.PRG'
 				lcPath		= JUSTPATH(.c_Foxbin2prg_FullPath)
@@ -2214,82 +2199,40 @@ DEFINE CLASS c_foxbin2prg AS CUSTOM
 
 				ENDCASE
 
-				IF tl_NormalizeInputFile
-					lcType	= UPPER( JUSTEXT( .c_InputFile ) )
+				.RenameFile( .c_OutputFile, lcEXE_CAPS, loFSO )
 
-					*-- Normalizar archivo(s) de entrada. El primero siempre se normaliza (??2, ??X, DBF, DBC)
-					.RenameFile( .c_InputFile, lcEXE_CAPS, loFSO )
+				DO CASE
+				CASE .c_Type = 'PJX'
+					.RenameFile( FORCEEXT(.c_OutputFile,'PJT'), lcEXE_CAPS, loFSO )
 
-					DO CASE
-					CASE lcType = 'PJX'
-						.RenameFile( FORCEEXT(.c_InputFile,'PJT'), lcEXE_CAPS, loFSO )
+				CASE .c_Type = 'VCX'
+					.RenameFile( FORCEEXT(.c_OutputFile,'VCT'), lcEXE_CAPS, loFSO )
 
-					CASE lcType = 'VCX'
-						.RenameFile( FORCEEXT(.c_InputFile,'VCT'), lcEXE_CAPS, loFSO )
+				CASE .c_Type = 'SCX'
+					.RenameFile( FORCEEXT(.c_OutputFile,'SCT'), lcEXE_CAPS, loFSO )
 
-					CASE lcType = 'SCX'
-						.RenameFile( FORCEEXT(.c_InputFile,'SCT'), lcEXE_CAPS, loFSO )
+				CASE .c_Type = 'FRX'
+					.RenameFile( FORCEEXT(.c_OutputFile,'FRT'), lcEXE_CAPS, loFSO )
 
-					CASE lcType = 'FRX'
-						.RenameFile( FORCEEXT(.c_InputFile,'FRT'), lcEXE_CAPS, loFSO )
+				CASE .c_Type = 'LBX'
+					.RenameFile( FORCEEXT(.c_OutputFile,'LBT'), lcEXE_CAPS, loFSO )
 
-					CASE lcType = 'LBX'
-						.RenameFile( FORCEEXT(.c_InputFile,'LBT'), lcEXE_CAPS, loFSO )
+				CASE .c_Type = 'DBF'
+					IF FILE( FORCEEXT(.c_OutputFile,'FPT') )
+						.RenameFile( FORCEEXT(.c_OutputFile,'FPT'), lcEXE_CAPS, loFSO )
+					ENDIF
+					IF FILE( FORCEEXT(.c_OutputFile,'CDX') )
+						.RenameFile( FORCEEXT(.c_OutputFile,'CDX'), lcEXE_CAPS, loFSO )
+					ENDIF
 
-					CASE lcType = 'DBF'
-						IF FILE( FORCEEXT(.c_InputFile,'FPT') )
-							.RenameFile( FORCEEXT(.c_InputFile,'FPT'), lcEXE_CAPS, loFSO )
-						ENDIF
-						IF FILE( FORCEEXT(.c_InputFile,'CDX') )
-							.RenameFile( FORCEEXT(.c_InputFile,'CDX'), lcEXE_CAPS, loFSO )
-						ENDIF
+				CASE .c_Type = 'DBC'
+					.RenameFile( FORCEEXT(.c_OutputFile,'DCX'), lcEXE_CAPS, loFSO )
+					.RenameFile( FORCEEXT(.c_OutputFile,'DCT'), lcEXE_CAPS, loFSO )
 
-					CASE lcType = 'DBC'
-						.RenameFile( FORCEEXT(.c_InputFile,'DCX'), lcEXE_CAPS, loFSO )
-						.RenameFile( FORCEEXT(.c_InputFile,'DCT'), lcEXE_CAPS, loFSO )
+				CASE .c_Type = 'MNX'
+					.RenameFile( FORCEEXT(.c_OutputFile,'MNT'), lcEXE_CAPS, loFSO )
 
-					CASE lcType = 'MNX'
-						.RenameFile( FORCEEXT(.c_InputFile,'MNT'), lcEXE_CAPS, loFSO )
-
-					ENDCASE
-					
-				ELSE
-					*-- Normalizar archivo(s) de salida. El primero siempre se normaliza (??2, ??X, DBF, DBC)
-					.RenameFile( .c_OutputFile, lcEXE_CAPS, loFSO )
-
-					DO CASE
-					CASE .c_Type = 'PJX'
-						.RenameFile( FORCEEXT(.c_OutputFile,'PJT'), lcEXE_CAPS, loFSO )
-
-					CASE .c_Type = 'VCX'
-						.RenameFile( FORCEEXT(.c_OutputFile,'VCT'), lcEXE_CAPS, loFSO )
-
-					CASE .c_Type = 'SCX'
-						.RenameFile( FORCEEXT(.c_OutputFile,'SCT'), lcEXE_CAPS, loFSO )
-
-					CASE .c_Type = 'FRX'
-						.RenameFile( FORCEEXT(.c_OutputFile,'FRT'), lcEXE_CAPS, loFSO )
-
-					CASE .c_Type = 'LBX'
-						.RenameFile( FORCEEXT(.c_OutputFile,'LBT'), lcEXE_CAPS, loFSO )
-
-					CASE .c_Type = 'DBF'
-						IF FILE( FORCEEXT(.c_OutputFile,'FPT') )
-							.RenameFile( FORCEEXT(.c_OutputFile,'FPT'), lcEXE_CAPS, loFSO )
-						ENDIF
-						IF FILE( FORCEEXT(.c_OutputFile,'CDX') )
-							.RenameFile( FORCEEXT(.c_OutputFile,'CDX'), lcEXE_CAPS, loFSO )
-						ENDIF
-
-					CASE .c_Type = 'DBC'
-						.RenameFile( FORCEEXT(.c_OutputFile,'DCX'), lcEXE_CAPS, loFSO )
-						.RenameFile( FORCEEXT(.c_OutputFile,'DCT'), lcEXE_CAPS, loFSO )
-
-					CASE .c_Type = 'MNX'
-						.RenameFile( FORCEEXT(.c_OutputFile,'MNT'), lcEXE_CAPS, loFSO )
-
-					ENDCASE
-				ENDIF
+				ENDCASE
 			ENDWITH && THIS
 
 		CATCH TO loEx
@@ -2748,13 +2691,6 @@ DEFINE CLASS c_conversor_base AS SESSION
 		LOCAL llEncontrado, lcWord
 
 		TRY
-			*-- Pre-normalización
-			lcLine	= tcLine
-
-			IF LEFT(lcLine,1) == '#'
-				lcLine	= CHRTRAN( lcLine, ' ', '' )	&& Quito los espacios a lo que comience con #
-			ENDIF
-			
 			IF tnIniFin = 1
 				*-- TOKENS DE INICIO
 				IF UPPER( LEFT( tcLine, LEN(ta_ID_Bloques(X,1)) ) ) == ta_ID_Bloques(X,1)
